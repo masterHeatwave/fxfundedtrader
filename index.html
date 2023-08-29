@@ -1,0 +1,718 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MFF</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+
+    <header class="header" style="background-color: #050628;">
+        <div class="header-row" style="background-color: #050628;">
+            <div class="logo">
+                <a href="https://fxfundedtrader.com/">
+                    <img src="assets/media/logo_full.svg" alt="MFF Logo" />
+                </a>
+            </div>
+            <nav class="main-menu">
+                <ul class="menu">
+                    <li class="menu-item" onmouseover="showSubMenu()" onmouseout="hideSubMenu()">
+                        <a href="https://fxfundedtrader.com/programs/">Programs</a>
+                        <div class="sub-menu" id="subMenu">
+                            <ul class="submenu-list">
+                                <li><a href="https://fxfundedtrader.com/rapid/">Rapid</a></li>
+                                <li><a href="https://fxfundedtrader.com/evaluation/">Evaluation</a></li>
+                                <li><a href="https://fxfundedtrader.com/accelerated/">Accelerated</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="menu-right">
+                    <li class="menu-item">
+                        <a href="https://fxfundedtrader.com/about/">About</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="https://fxfundedtrader.com/contact/">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <!-- Banner Section -->
+
+    <section class="banner">
+        <div class="container">
+            <div class="banner-title-1">Our Capital. Your Expertise</div>
+            <div class="banner-icon">
+                <img class="banner-img" src="assets/media/mfficon-lr-border-wh.svg" alt="" />
+            </div>
+            <div class="banner-title-2">The Market<br />Awaits You.</div>
+            <div class="banner-buttons">
+                <a href="#product" class="btn btn-primary start-now" data-target="smoothscroll">Start Now!</a>
+                <a href="/programs" class="btn btn-secondary learn-more">Learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Earn Section-->
+
+    <section class="earn-section">
+        <div class="earn-container">
+            <div class="earn-title">Earn as a professional trader</div>
+            <div class="earn-icon">
+                <img src="assets/media/mfficon-lr-border.svg" alt="" />
+            </div>
+            <div class="earn-subtitle">
+                Our Prop Firm has multiple programs to start your journey as an FX Funded Trader. <br />
+                Choose one of our funding programs and start trading, offers, and profit-splits.
+            </div>
+        </div>
+    </section>
+
+    <section class="programs-section">
+        <div class="programs-container">
+            <div class="program-row">
+                <div class="program program-rapid">
+                    <div class="program-container">
+                        <div class="program-icon">
+                            <img src="assets/media/Rapid.webp" alt="Rapid" />
+                        </div>
+                        <div class="program-title">Rapid</div>
+                        <div class="program-description">
+                            <div class="some-knowledge">
+                                <p>
+                                    <span style="color: #ffffff;">(Some Knowledge)</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="program-info">
+                            <p>
+                                <span style="color: #ffffff;">Our Rapid account allows our traders to earn offers from day one.</span>
+                            </p>
+                        </div>
+                        <div class="program-buttonWrapper">
+                            <a href="https://fxfundedtrader.com/rapid/" class="rapid-button btn btn-fullwhite btn--square btn-icon--before" target="_self" itemprop="url">
+                                <span class="program-buttonText">Start Now!</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="program program-evaluation">
+                    <div class="program-container">
+                        <div class="program-icon">
+                            <img src="assets/media/Evaluation.webp" alt="Evaluation" />
+                        </div>
+                        <div class="program-title">Evaluation</div>
+                        <div class="program-description">
+                            <div class="experienced">
+                                <p>
+                                    <span style="color: #ffffff;">(Experienced)</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="program-info">
+                            <p>
+                                <span style="color: #ffffff;">Our Evaluation program is built for traders to prove their worth.</span>
+                            </p>
+                        </div>
+                        <div class="program-buttonWrapper">
+                            <a href="https://fxfundedtrader.com/evaluation/" class="evaluation-button btn btn-fullwhite btn--square btn-icon--before" target="_self" itemprop="url">
+                                <span class="program-buttonText">Start Now!</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="program program-accelerated">
+                    <div class="program-container">
+                        <div class="program-icon">
+                            <img src="assets/media/Accelerated.webp" alt="Accelerated" />
+                        </div>
+                        <div class="program-title">Accelerated</div>
+                        <div class="program-description">
+                            <div class="trades-for-a-living">
+                                <p>
+                                    <span style="color: #ffffff;">(Trades full time for a living)</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="program-info">
+                            <p>
+                                <span style="color: #ffffff;">Accelerated program is built for our traders to start trading a live account from day one.</span>
+                            </p>
+                        </div>
+                        <div class="program-buttonWrapper">
+                            <a href="https://fxfundedtrader.com/accelerated/" class="accelerated-button btn btn-fullwhite btn--square btn-icon--before" title="Accelerated" target="_self" itemprop="url">
+                                <span class="program-buttonText">Start Now!</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Benefits Section-->
+
+    <section class="text-benefits-row benefits-section" id="benefits-section">
+        <div class="benefits-container container">
+            <div class="benefits-row row">
+                <div class="benefits-heading col-md-offset-2 col-md-8 col-sm-8">
+                    <div class="benefits-title-block clearfix text-center">
+                        <h3 class="benefits-title" itemprop="headline">MFF Benefits</h3>
+                    </div>
+                    <div class="kl-iconbox benefits-iconbox kl-iconbox--type-img kl-iconbox--align-center text-center kl-iconbox--theme-light element-scheme--light">
+                        <div class="kl-iconbox__inner clearfix">
+                            <div class="benefits-icon-wrapper kl-iconbox__icon-wrapper">
+                                <img alt="MFF Icon" title="" src="assets/media/mfficon-lr-border.svg" class="benefits-mfficon">
+                                <noscript>
+                                    <img class="benefits-icon kl-iconbox__icon" src="assets/media/mfficon-lr-border.svg" alt="MFF Icon" title="">
+                                </noscript>
+                            </div>
+                            <div class="kl-iconbox__content-wrapper"></div>
+                        </div>
+                    </div>
+                    <div class="benefits-subtitle-block clearfix text-center">
+                        <h4 class="benefits-subtitle" itemprop="alternativeHeadline" style="margin-bottom: 0px;">At MFF we care about your Success. By joining us you’ll get the opportunity to trade with the world’s leading prop trading firm that makes a real difference to the industry. We constantly strive on investing in cutting-edge technologies in order to create the best possible trading environment for our traders.</h4>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="main-row benefits-section">
+        <div class="container-columns">
+
+            <div class="benefits-columns">
+                <div class="benefits-inner-columns">
+                    <div class="icon-image-block">
+                        <img class="icon-image" src="assets/media/Group-48671-1.webp" alt="Group-48674-1">
+                    </div>
+                    <h3 class="heading heading3">Select Your Platform!</h3>
+                    <p class="normal-text">We have both Metatrader 4 and 5 available for your FOREX funded account. Trade with ease with the trading platform you prefer!</p>
+                </div>
+            </div>
+
+            <div class="benefits-columns">
+                <div class="benefits-inner-columns">
+                    <div class="icon-image-block">
+                        <img class="icon-image" src="assets/media/Group-48672-1.webp" alt="Group-48674-1">
+                    </div>
+                    <h3 class="heading heading3">We are always by your side!</h3>
+                    <p class="normal-text">Our 24/7 support team is available for all your FOREX Funded account needs, day or night we are there for you. When you need us we are always there to assist.</p>
+                </div>
+            </div>
+
+            <div class="benefits-columns">
+                <div class="benefits-inner-columns">
+                    <div class="icon-image-block">
+                        <img class="icon-image" src="assets/media/Group-48673-1.webp" alt="Group-48674-1">
+                    </div>
+                    <h3 class="heading heading3">We are a community!</h3>
+                    <p class="normal-text">Talk actively with us, our community and our fans on discord. We provide talks and information in real time to actively promote good behavior in trading. Join our discord and see what all the fuss is about!</p>
+                </div>
+            </div>
+
+            <div class="benefits-columns">
+                <div class="benefits-inner-columns">
+                    <div class="icon-image-block">
+                        <img class="icon-image" src="assets/media/Group-48674-1.webp" alt="Group-48674-1">
+                    </div>
+                    <h3 class="heading heading3">Automated FOREX Funded Accounts!</h3>
+                    <p class="normal-text">Get your funded trader accounts immediately after program purchase. No waiting, get your FOREX funded account instantly upon purchase of your chosen program. You no longer have to wait to get started today.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Bonus Section -->
+    <section class="main-row bonus-section">
+        <div class="bonuses-column-1">
+            <h2 class="heading heading2">Funded Forex Account Bonuses!</h2>
+            <p class="normal-text bonouses-text">Our bonuses reflect our aspiration to attract, motivate and retain talented traders. Are you ready to start your trading journey with MyForexFunds family? Bring your skills and build your future with us through a variety of rewards.</p>
+        </div>
+        <div class="main-row-bonus">
+            <div class="bonouses-container-columns ">
+
+                <div class="bonus-column">
+                    <div class="bonus-inner-column">
+                        <div class="image-box- bonus-image">
+                            <img class="image-boxes-img img-responsive" src="assets/media/More-than-a-refund.gif" alt="" />
+                        </div>
+                        <div class="text-inner-column">
+                            <h2 class="heading heading-bonous">◉ Earn from Phase 1!</h2>
+                            <p class="normal-text bonous-normal-text">Get 2% of your trading profits by passing phase 1 and 4% of your trading profits by passing phase 2. Get paid on your journey to a forex funded account.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bonus-column">
+                    <div class="bonus-inner-column">
+                        <div class="image-box- bonus-image">
+                            <img class="image-boxes-img img-responsive" src="assets/media/Earn-from-Phase-1.gif" alt="" />
+                        </div>
+                        <div class="text-inner-column">
+                            <h2 class="heading heading-bonus">◉ More than a refund!</h2>
+                            <p class="normal-text bonus-normal-text">We pay 112% refund when you reach your first profit split. Why settle for just a refund when you can get rewarded for reaching a new milestone!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bonus-column">
+                    <div class="bonus-inner-column dark-column">
+                        <div class="image-box- bonous-image">
+                            <img class="image-boxes-img img-responsive" src="assets/media/VIP-Reward-Program-1.gif" alt="" />
+                        </div>
+                        <div class="text-inner-column">
+                            <h2 class="heading heading-bonus">◉ VIP Reward Program</h2>
+                            <p class="normal-text bonus-normal-text">With a 90% profit split, withdrawals at any time with no restrictions, semi-automated payout confirmations (Money in your Deel account within 10 hours), and many more surprising gifts, our VIP Program is here to change the game. Earn your VIP place now.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Level Section -->
+    <section class="experience-level-section" id="experience-level-section" style="background-color: #edf2ff;">
+        <div class="experience-level-container">
+            <div class="experience-level-row">
+                <div class="experience-level-column">
+                    <div class="experience-level-content">
+                        <div class="experience-level-title">
+                            <h3 class="experience-level-title">What is your experience level?</h3>
+                        </div>
+                        <div class="experience-icon-box" id="experience-icon-box">
+                            <img class="experience-icon" src="assets/media/mfficon-lr-border.svg" alt="Icon">
+                        </div>
+                        <div class="experience-level-subtitle">
+                            <h4 class="experience-level-sub">Your success is our business. We provide FX traders with a variety of financial products to choose from based on your experience. If you lose, we lose, so choose carefully the program that fits your trading experience. We will do the rest when it comes to support and trading conditions to ensure your success while trading top financial instruments with MFF.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-row-experience">
+            <div class="inner-row-experience">
+                <!-- Rapid Column -->
+                <div class="main-level-column">
+                    <div class="main-level-inner-column">
+                        <div class="top-media-div">
+                            <div class="media-div-image">
+                                <img class="rapid-icon" src="assets/media/Rapid.webp" alt="Icon">
+                            </div>
+                            <div class="media-div-text">
+                                <div class="text-container">
+                                    <p class="main-head-text">
+                                        Rapid
+                                    </p>
+                                    <p class="small-text">
+                                        (Some Knowledge)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-text-collumn">
+                            <div class="icon-list-items-column">
+                                <ul class="svg-icon-list">
+                                    <li class="icon-list-item item-1">
+                                        <span class="svg-icon">
+                                            <svg viewBox="0 0 512 512" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="svg-icon-list-text">
+                                            Get to see how prop firms work
+                                        </span>
+                                    </li>
+                                    <li class="icon-list-item item-1">
+                                        <span class="svg-icon">
+                                            <svg viewBox="0 0 512 512" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="svg-icon-list-text">
+                                            Get paid as you gain experience
+                                        </span>
+                                    </li>
+                                    <li class="icon-list-item item-1">
+                                        <span class="svg-icon">
+                                            <svg viewBox="0 0 512 512" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="svg-icon-list-text">
+                                            Low entry cost
+                                        </span>
+                                    </li>
+                                    <li class="icon-list-item item-1">
+                                        <span class="svg-icon">
+                                            <svg viewBox="0 0 512 512" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="svg-icon-list-text">
+                                            Progress into a professional trader
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="main-row-experience-buttons">
+                            <a class="btn btn-primary start-now" href="#rapid">
+                                <span class="btn-inner-text">Start Now</span>
+                            </a>
+                            <a class="btn btn-secondary learn-more" href="#">
+                                <span class="btn-inner-text">Learn More</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Evaluation Column -->
+                <div class="main-level-column">
+                    <div class="main-level-inner-column">
+                        <div class="top-media-div">
+                            <div class="media-div-image">
+                                <img class="evaluation-icon" src="assets/media/Evaluation.webp" alt="Icon" />
+                            </div>
+                            <div class="media-div-text">
+                                <div class="text-container">
+                                    <p class="main-head-text">
+                                        Evaluation
+                                    </p>
+                                    <p class="small-text">
+                                        (Experienced)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-text-collumn">
+                            <div class="icon-list-items-column">
+                                <ul class="svg-icon-list">
+                                    <li class="icon-list-item item-1">
+                                        <span class="svg-icon">
+                                            <svg viewBox="0 0 512 512" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="svg-icon-list-text">
+                                            Prove your experience with our Evaluation Account!
+                                        </span>
+                                    </li>
+                                    <li class="icon-list-item item-1">
+                                        <span class="svg-icon">
+                                            <svg viewBox="0 0 512 512" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="svg-icon-list-text">
+                                            Quick 2 phase evaluation process
+                                        </span>
+                                    </li>
+                                    <li class="icon-list-item item-1">
+                                        <span class="svg-icon">
+                                            <svg viewBox="0 0 512 512" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="svg-icon-list-text">
+                                            Generous drawdown limits
+                                        </span>
+                                    </li>
+                                    <li class="icon-list-item item-1">
+                                        <span class="svg-icon">
+                                            <svg viewBox="0 0 512 512" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="svg-icon-list-text">
+                                            Profit split up to 85%
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="main-row-experience-buttons">
+                            <a class="btn btn-primary start-now" href="#rapid">
+                                <span class="btn-inner-text">Start Now</span>
+                            </a>
+                            <a class="btn btn-secondary learn-more" href="#">
+                                <span class="btn-inner-text">Learn More</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Accelerated Column -->
+                <div class="main-level-column">
+                    <div class="main-level-inner-column">
+                        <div class="top-media-div">
+                            <div class="media-div-image">
+                                <img class="accelerated-icon" src="assets/media/Accelerated.webp" alt="Icon">
+                            </div>
+                            <div class="media-div-text">
+                                <div class="text-container">
+                                    <p class="main-head-text">
+                                        Accelerated
+                                    </p>
+                                    <p class="small-text">
+                                        (Trades full time for a living)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-text-collumn">
+                            <div class="icon-list-items-column">
+                                <ul class="svg-icon-list">
+                                    <li class="icon-list-item item-1">
+                                        <span class="svg-icon">
+                                            <svg viewBox="0 0 512 512" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="svg-icon-list-text">
+                                            Get started immediately with our Accelerated Funding
+                                        </span>
+                                    </li>
+                                    <li class="icon-list-item item-1">
+                                        <span class="svg-icon">
+                                            <svg viewBox="0 0 512 512" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="svg-icon-list-text">
+                                            Industry leading profit split
+                                        </span>
+                                    </li>
+                                    <li class="icon-list-item item-1">
+                                        <span class="svg-icon">
+                                            <svg viewBox="0 0 512 512" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="svg-icon-list-text">
+                                            Speedy upscaling
+                                        </span>
+                                    </li>
+                                    <li class="icon-list-item item-1">
+                                        <span class="svg-icon">
+                                            <svg viewBox="0 0 512 512" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="svg-icon-list-text">
+                                            Multiple sizes to choose from
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="main-row-experience-buttons">
+                            <a class="btn btn-primary start-now" href="#rapid">
+                                <span class="btn-inner-text">Start Now</span>
+                            </a>
+                            <a class="btn btn-secondary learn-more" href="#">
+                                <span class="btn-inner-text">Learn More</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Awards Section -->
+    <section class="latest-awards-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="latest-awards-content">
+                        <h3 class="awards-heading">Latest Awards</h3>
+                        <div class="awards-image-box">
+                            <div class="image-box-wrapper">
+                                <div class="image-box-img-wrapper">
+                                    <img alt="MFF Global FX Prop Trading Firm of the Year"
+                                         title="MFF Global FX Prop Trading Firm of the Year"
+                                         src="assets/media/3_1670410467.webp"
+                                         class="awards-img"
+                                         data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+                                    <noscript>
+                                        <img src="assets/media/3_1670410467.webp"
+                                             alt="MFF Global FX Prop Trading Firm of the Year"
+                                             title="MFF Global FX Prop Trading Firm of the Year"
+                                             class="awards-img-responsive">
+                                    </noscript>
+                                </div>
+                                <span class="awards-image-border-helper"></span>
+                                <h3 class="awards-image-box-title">
+                                    <span>MFF is the “Global FX Prop Trading Firm of the Year”</span>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section class="customer-reviews">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="trustpilot-widget" data-locale="en-US" data-template-id="53aa8912dec7e10d38f59f36" data-businessunit-id="603292494402970001e76c27" data-style-height="140px" data-style-width="100%" data-theme="light" data-stars="1,2,3,4,5" data-review-languages="en" data-font-family="Poppins">
+                        <a href="https://www.trustpilot.com/review/myforexfunds.com" target="_blank" rel="noopener">Trustpilot</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <section class="footer-section" id="footer-section">
+            <div class="footer-container">
+                <div class="footer-row">
+                    <div class="footer-col col-md-4 col-sm-4 sub-col" id="footer-sub-col-1">
+                        <div class="footer-col-inner">
+                            <div class="img-box">
+                                <a href="/" class="logo-link-wrapper" target="_self" itemprop="url">
+                                    <div class="logo-img-wrap">
+                                        <img src="assets/media/logo_full.svg" class="logo-img-lazyload" />
+                                        <noscript>
+                                            <img class="logo-img" src="assets/media/logo_full.svg" />
+                                        </noscript>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="img-box-trustpilot">
+                                <a href="/" class="trustpilot-link-wrapper" target="_self" itemprop="url">
+                                    <div class="trustpilot-img-wrap">
+                                        <img alt="" src="assets/media/Trustpilot-2.svg" class="trustpilot-img" />
+                                        <noscript>
+                                            <img class="trustpilot-img" src="assets/media/Trustpilot-2.svg" alt="" title="" />
+                                        </noscript>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-menu-column">
+                        <div class="footer-col-inner">
+                            <div class="custom-cont">
+                                <div class="footer-row">
+                                    <div class="footer-col">
+                                        <div class="footer-col-inner">
+                                            <div class="programs-list">
+                                                <ul class="list-items">
+                                                    <li class="list-item">
+                                                        <a href="https://fxfundedtrader.com/index.php/programs/" class="list-link" target="_self" itemprop="url">
+                                                            <span class="list-text">Programs</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="footer-col">
+                                        <div class="footer-col-inner">
+                                            <div class="list services-list icon-left light-scheme">
+                                                <ul class="list-items clearfix">
+                                                    <li class="list-item clearfix">
+                                                        <a href="https://fxfundedtrader.com/index.php/rapid/" class="list-link" title="Rapid" target="_self" itemprop="url">
+                                                            <span class="list-text">Rapid</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-item clearfix">
+                                                        <a href="https://fxfundedtrader.com/index.php/evaluation/" class="list-link" title="Evaluation" target="_self" itemprop="url">
+                                                            <span class="list-text">Evaluation</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-item clearfix">
+                                                        <a href="https://fxfundedtrader.com/index.php/accelerated/" class="list-link" title="Accelerated" target="_self" itemprop="url">
+                                                            <span class="list-text">Accelerated</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="footer-col" id="footer-sub-col-2-3">
+                                        <div class="footer-col-inner">
+                                            <div class="list about-contact-list icon-left light-scheme">
+                                                <ul class="list-items clearfix">
+                                                    <li class="list-item clearfix">
+                                                        <a href="https://fxfundedtrader.com/index.php/about/" class="list-link" target="_self" itemprop="url">
+                                                            <span class="list-text">About</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-item clearfix">
+                                                        <a href="https://fxfundedtrader.com/index.php/contact/" class="list-link" target="_self" itemprop="url">
+                                                            <span class="list-text">Contact</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-col" id="footer-sub-col-3">
+                        <div class="footer-col-inner">
+                            <div class="text-box light-scheme">
+                                <section class="breaking-bad-section" data-id="breaking-bad-section">
+                                    <div class="section-container column-gap-default">
+                                        <div class="section-column column-top column-element">
+                                            <div class="widget-wrap element-populated">
+                                                <div class="widget widget-text-editor ob-harakiri" data-id="widget-text-editor">
+                                                    <div class="widget-container">
+                                                        <p style="text-align: justify;">
+                                                            <span style="font-size: 10px; color: #ffffff;">MFF is owned and operated by Traders Global Group Incorporated. Registration number 1264617-0 and having its registered office at 9131 Keele Street, Vaughan, Ontario, ON L4K 2N, Canada.</span>
+                                                        </p>
+                                                        <p style="text-align: justify;">
+                                                            <span style="color: #ffffff;">
+                                                                <span style="font-size: 10px;">MFF does not directly solicit customers from Canada. People who register for our programs do so at their own volition. MFF does not take into consideration your personal financial situation. If you require financial advice, it is recommended that you speak to a financial adviser or licensed professional. MFF does not act as or conduct services as a broker. MFF does not act as or conduct services as a custodian. </span>
+                                                                <span style="font-size: 10px;">Purchases of programs should not be considered deposits. All program fees are used for operation costs including, but not limited to, staff, technology, and other business-related expenses. </span>
+                                                                <span style="font-size: 10px;">Information on this site is not directed at residents in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.</span>
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="widget widget-text-editor ob-harakiri" data-id="widget-text-editor">
+                                                    <div class="widget-container" style="text-align: justify;">
+                                                        <span style="font-size: 10px; color: #ffffff;">© 2022 MFF</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Add Bootstrap and other script links here -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
