@@ -1,4 +1,5 @@
 /* Base styles */
+
 * {
     box-sizing: border-box;
 }
@@ -129,6 +130,7 @@ body {
 }
 
 /* Banner styles */
+
 .banner {
     background-image: url(https://fxfundedtrader.com/wp-content/uploads/2022/12/top_banner_final-1.webp);
     background-repeat: no-repeat;
@@ -180,7 +182,7 @@ body {
 
 .start-now {
     background-color: #000;
-    padding: 11px 20px;
+    padding: 10px 19px;
     border-radius: 0;
     margin-right: 5px;
 }
@@ -188,11 +190,12 @@ body {
 .learn-more {
     background-color: transparent;
     border: 2px solid #fff;
-    padding: 11px 20px;
+    padding: 10px 19px;
     border-radius: 2px;
 }
 
 /* Earn section styles */
+
 .earn-section {
     background-color: #fff;
     padding: 20px;
@@ -234,6 +237,7 @@ body {
 }
 
 /* Programs section styles */
+
 .programs-section {
     background-color: #fff;
     padding: 20px;
@@ -267,6 +271,7 @@ body {
 .program-icon img {
     max-width: 60px;
     max-height: 60px;
+    float: left;
     margin-right: 20px;
 }
 
@@ -277,12 +282,18 @@ body {
     line-height: 28px;
     text-align: center;
     display: flex;
+    padding-top: 7px;
 }
 
 .program-description {
     font-size: 12px;
     line-height: 21px;
     display: flex;
+}
+
+.program-info {
+    padding-top: 0;
+    padding-bottom: 50px;
 }
 
 .rapid-button,
@@ -303,6 +314,11 @@ body {
     top: -40px;
 }
 
+.accelerated-button {
+    position: relative;
+    top: -60px; 
+}
+
 .program-rapid {
     background-color: #068acc;
 }
@@ -316,16 +332,34 @@ body {
 }
 
 /* MFF Benefits section */
+
+.benefits-section {
+    background-color: #ebf4f8;
+    position: relative;
+    display: block;
+}
+
 .benefits-container {
     width: 1170px;
-    margin: 0 auto;
-    padding: 0 15px;
-    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .benefits-row {
     margin-left: -15px;
     margin-right: -15px;
+    width: 1170px;
+    margin: 0 auto;
+    display: grid;
+    place-items: center; /* Center content both horizontally and vertically */
+}
+
+.benefits-heading {
+    vertical-align: middle;
+    width: 1170px;
+    top: -40px;
 }
 
 .benefits-title {
@@ -333,8 +367,9 @@ body {
     line-height: 26px;
     font-weight: 600;
     color: #020202;
+    margin-top: 75px;
+    padding-top: 75px;
     letter-spacing: -1px;
-    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -346,6 +381,7 @@ body {
     line-height: 1;
     font-size: 42px;
     vertical-align: middle;
+    margin-top: 20px;
 }
 
 .benefits-subtitle {
@@ -411,7 +447,6 @@ body {
 .text-benefits-row.benefits-section,
 .main-row.benefits-section {
     background-color: #ebf4f8;
-    padding-top: 75px;
 }
 
 .container-columns {
