@@ -41,6 +41,14 @@ body {
     position: relative;
 }
 
+.logo {
+    width: 100%;
+    margin: 0;
+    display: table;
+    margin-top: 18px;
+    margin-left: 80px;
+}
+
 .logo-img {
     opacity: 1;
     transition: opacity .4s;
@@ -189,8 +197,8 @@ body {
 
 .learn-more {
     background-color: transparent;
-    border: 2px solid #fff;
-    padding: 10px 19px;
+    border: 1px solid #fff;
+    padding: 9px 18px;
     border-radius: 2px;
 }
 
@@ -509,6 +517,7 @@ p.normal-text {
 }
 
 /* Bonuses Section */
+
 .bonus-section {
     margin-top: 80px;
     margin-bottom: 80px;
