@@ -516,33 +516,42 @@ p.normal-text {
     margin: 0;
 }
 
-/* Bonuses Section */
+/* Offers Section */
 
-.bonus-section {
+.offers-section {
     margin-top: 80px;
     margin-bottom: 80px;
     padding: var(--global-kb-spacing-md, 2rem) 0;
     text-align: center;
+    background-color: #f9f9f9;
+    padding: 75px 0;
 }
 
-.heading2 {
-    color: #090b47;
-    font-size: 42px;
+.offers-container {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.offers-title {
+    font-size: 36px;
+    line-height: 26px;
     font-weight: 600;
-    line-height: 42px;
-    text-align: center;
+    color: #020202;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
 }
 
-.bonuses-text {
-    color: #090b47;
-    margin-bottom: 20px;
-    padding: 20px 0 9px;
-    font-size: 14px;
+.offers-subtitle {
+    font-family: "Poppins",Helvetica,Arial,sans-serif;
     font-weight: 400;
-    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    vertical-align: middle;
 }
 
-.bonuses-container-columns {
+.offers-container-columns {
     display: grid;
     gap: var(--global-kb-gap-md, 2rem);
     max-width: 1366px;
@@ -551,10 +560,12 @@ p.normal-text {
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.bonus-inner-column {
+.offers-inner-column {
     background-color: #edf2ff;
     padding: 25px;
     text-align: center;
+    width: 360px;
+    height: 736px;
 }
 
 .dark-column {
@@ -563,81 +574,41 @@ p.normal-text {
     text-align: center;
 }
 
-.bonous-normal-text {
-    color: #090b47;
-    font-style: normal;
-    font-weight: 400;
-    text-align: center;
-}
-
-.heading-bonous {
+.heading-offers {
     color: #050628;
     font-size: 19px;
     font-weight: 400;
 }
 
-.dark-column .heading-bonous {
+.dark-column .heading-offers {
     color: #edf2ff;
     font-weight: 600;
 }
 
-.dark-column .bonous-normal-text {
+.dark-column .offers-normal-text {
     color: white;
 }
 
-/* Funded offers section */
-.funded-offers-section {
-    background-color: #f9f9f9;
-    padding: 75px 0;
-}
 
-.funded-offers-container {
+.offers-container {
     max-width: 1200px;
     text-align: center;
     margin: 0 auto;
 }
 
-.funded-offers-row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 -15px;
-}
-
-.funded-offers-column {
+.offers-column {
     flex-basis: 33.33333333%;
     max-width: 33.33333333%;
-    padding: 0 15px;
 }
 
-.funded-offers-content {
-    padding: 30px;
-    height: 736px;
-}
-
-.funded-offers-title {
-    font-size: 36px;
-    line-height: 26px;
-    font-weight: 600;
-    color: #020202;
-    letter-spacing: -1px;
-}
-
-.funded-offers-subtitle {
-    font-size: 14px;
-    line-height: 21px;
-    font-weight: 400;
-    margin-bottom: 10px;
-}
-
-.funded-headline {
+.offers-headline {
     font-size: 21px;
     line-height: 28px;
     font-weight: 400;
     margin-bottom: 15px;
 }
 
-.funded-description {
+.offers-description {
     font-size: 14px;
     line-height: 21px;
 }
